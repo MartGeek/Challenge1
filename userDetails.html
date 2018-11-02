@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>SendIt | UserProfile</title>
+	<link rel="stylesheet" type="text/css" href="./css/userDashboard.css">
+</head>
+<body>
+
+	<h1>User Order Details</h1>
+	<table class="blueTable" border="1">
+
+		<thead>
+			<tr>
+				<th>Collection location</th>
+				<th>Delivary location</th>
+				<th>Weight</th>
+				<th>Price</th>
+				<th>Status</th>
+
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="tableParts">
+				<td>Kigali</td>
+				<td>Nyanza</td>
+				<td>2kgs</td>
+				<td>2000Rwf</td>
+				<td>Not Delivered</td>
+				<td><button type="button" class="cancelButton" onclick="cancel()">X Cancel Order</button></td>
+			</tr>
+			<tr>
+				<td>Kamonyi</td>
+				<td>Nyagasambu</td>
+				<td>4kgs</td>
+				<td>4000Rwf</td>
+				<td class="status">Delivered</td>
+				<td><button type="button" class="cancelButton" >X Cancel Order</button></td>
+			</tr>
+			<tr>
+				<td>Huye</td>
+				<td>Ruhango</td>
+				<td>10kgs</td>
+				<td>10000Rwf</td>
+				<td>Delivered</td>
+				<td><button type="button" class="cancelButton" >X Cancel Order</button></td>
+			</tr>
+			<tr>
+				<td>Nyamagabe</td>
+				<td>Rubavu</td>
+				<td>30kgs</td>
+				<td>30000Rwf</td>
+				<td>In Transit</td>
+				<td><button type="button" class="cancelButton" >X Cancel Order</button></td>
+			</tr>
+		</tbody>
+		</tr>
+	</table>
+<script type="text/javascript" src='userDetails.js'></script>
+</body>
+</html>

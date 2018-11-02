@@ -1,0 +1,87 @@
+body{
+	font-family: georgia;
+	margin:0;
+	padding:0;
+	background-color: #063A54;
+}
+.parentDiv{
+	width:50%;
+	position: absolute;
+	display: inline-block;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.textbox{
+	width:60%;
+	overflow: hidden;
+	font-size:20px;
+	margin-bottom: 8px;
+	border:1px solid #54A982;
+	padding: 10px;
+	border-radius: 5px;
+/*	border-right: 2px;*/
+}
+.textbox input{
+	width:300px;
+	padding-bottom: 2px;
+	float:left;
+	text-align: left;
+	border:none;
+	outline:none;
+	background:none;
+	color:white;
+	font-size:15px;
+	border-radius: 4px;
+	font-family: georgia;
+
+}
+#addingChecker, #priceChecker{
+	border:1px solid #54A982;
+	border-radius: 4px;
+	outline:none;
+	padding:5px;
+	margin:4px;
+	background:#54A982;
+	color:black;
+	font-family: georgia;
+}
+
+.vertical_Nav ul li{
+	display: flex;
+	letter-spacing: 2px;
+	list-style-type: none;
+	
+}
+.vertical_Nav {
+	border:2px solid black;
+	margin-right:1150px;
+	background-color: black;
+	color:white;
+	padding-bottom:600px;
+}
+a{
+	text-decoration: none;
+}
+a:hover { 
+    background-color: #0A617C;
+}
+th, td, button{
+	padding:5px;
+}
+table {
+	border-radius: 4px;
+	position: absolute;
+	display: inline-block;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);	
+}
+button, select, option{
+	background: #54A982;
+	border:2px solid #54A982;
+	color: black;
+	font-family: georgia;
+	padding: 5px;
+}

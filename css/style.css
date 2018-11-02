@@ -30,10 +30,10 @@ nav a{
 	padding: 20px 15px;
 	text-decoration: none;
 	list-style-type: none;
-	color:#0B2D60;
 }
-.login{
+.login {
 	opacity:0.8;
+	border-radius: 4px;
 	background-color: black;
 	width:50%;
 	position: absolute;
@@ -56,13 +56,14 @@ nav a{
 	width:100%;
 	overflow: hidden;
 	font-size:20px;
-	padding:8px 0;
+	padding:6px 0;
 	margin: 8px 0;
 	border-bottom:1px solid #54A982;
 	border-right: 2px;
 }
 .textbox input{
 	width:300px;
+	padding-bottom: 2px;
 	float:left;
 	text-align: left;
 	border:none;
@@ -70,6 +71,7 @@ nav a{
 	background:none;
 	color:white;
 	font-size:15px;
+	border-radius: 4px;
 	font-family: georgia;
 
 }
@@ -135,11 +137,10 @@ a:hover {
 	color:white;
 	font-family: georgia;
 }
-#countryCode{
-
-	background:none;
+select, option{
+	background: #54A982;
 	border:2px solid #54A982;
-	color:white;
+	color: black;
 	font-family: georgia;
-	padding: 5px
+	padding: 5px;
 }
