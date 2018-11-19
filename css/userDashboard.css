@@ -1,0 +1,111 @@
+body{
+	font-family: georgia;
+	margin:0;
+	padding:0;
+	
+}
+.parentDiv{
+	width:50%;
+	position: absolute;
+	display: inline-block;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.textbox{
+	width:60%;
+	overflow: hidden;
+	font-size:20px;
+	margin-bottom: 8px;
+	border:1px solid #54A982;
+	padding: 10px;
+	border-radius: 5px;
+
+}
+.textbox input{
+	width:300px;
+	padding-bottom: 2px;
+	float:left;
+	text-align: left;
+	border:none;
+	outline:none;
+	background:none;
+	color:white;
+	font-size:15px;
+	border-radius: 4px;
+	font-family: georgia;
+
+}
+#addingChecker, #priceChecker{
+	border:1px solid #54A982;
+	border-radius: 4px;
+	outline:none;
+	padding:5px;
+	margin:4px;
+	background:#54A982;
+	color:black;
+	font-family: georgia;
+}
+
+
+#vertical_Nav {
+	position: fixed;
+	width:200px;
+	height:100%;
+	background: #063A54;
+	left:-200px;
+	transition: all 500ms linear;
+}
+#vertical_Nav.active{
+	left:0px;
+}
+
+#vertical_Nav ul li{
+	text-align: left;
+	display: flex;
+	list-style: none;
+	letter-spacing: 1px;
+	padding:15px 10px;
+	border-bottom:1px solid rgba(100, 100,100,0.3)
+}
+
+.toggle_btn{
+	position:absolute;
+	left:230px;
+	top:20px;
+}
+.toggle_btn span{
+	display:block;
+	width:30px;
+	height:5px;
+	background:#151719;
+	margin: 5px 8px;
+
+}
+
+a{
+	text-decoration: none;
+	color: rgba(230, 230,230,0.9)
+}
+a:hover { 
+    background-color: #0A617C;
+}
+th, td, button{
+	padding:5px;
+}
+table {
+	border-radius: 4px;
+	position: absolute;
+	display: inline-block;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);	
+}
+button, select, option{
+	background: #54A982;
+	border:2px solid #54A982;
+	color: black;
+	font-family: georgia;
+	padding: 5px;
+}
