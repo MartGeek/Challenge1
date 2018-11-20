@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>SendIt | UserProfile</title>
+	<link rel="stylesheet" type="text/css" href="./css/userDashboard.css">
+</head>
+<body>
+
+	<div id='vertical_Nav'>
+		<div class='toggle_btn' onclick='toggleVertBar()'>
+			<span></span>
+			<span></span>
+			<span></span>
+
+		</div>
+		<ul>
+			<li><a href="userDashboard.html">Create parcel order</a></li>
+			<li><a href="userDetails.html">View details</a></li>
+			<li><a href="contactUs.html">Contact us</a></li>
+		</ul>
+	</div>
+
+	<div class="parentDiv">
+		<h2>Create your parcel order here</h2>
+		<div id="pricing">
+			<div class='textbox'> 
+				<input type="text" name="" placeholder="Describe the courier here please">
+			</div>
+			<span>From:</span>
+			<div class="textbox">
+				<input type="country" name="" placeholder= "Type the collection location">
+			</div>
+			<span>To:</span>
+			<div class="textbox">
+				<input type="text" name="" placeholder="Type the delivery location">
+			</div>
+			<div class='textbox'>
+				<input type="number" name="" placeholder='Enter weight here (in kgs)' class ='enteredNumber'>
+			</div>		
+
+		</div>
+		<button type="submit" value="" id="priceChecker">Check Price</button>
+		<button type="submit" id='addingChecker'> + add parcel</button>
+		<!-- div for displaying the price -->
+			<div id ="result" style="border: 1px solid #54A982; width: 50%; height: 50%; background-color: #54A982 "></div>
+	</div>
+<script type="text/javascript" src='userDashboard.js'></script>
+</body>
+</html>
